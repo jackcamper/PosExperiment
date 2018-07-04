@@ -2,10 +2,12 @@ import com.inss.auto.components.*;
 import org.junit.Test;
 
 
-@Test
-public class PosTest {
+public class PosTests {
 
-  JposDeElements jpos = JposDeElements.builder().includeMTI("7110").build();
+  @Test
+  public void PosTests() {
+    JposDeElements jpos = JposDeElements.builder().includeMTI("7110").build();
+  }
 
 
 }
