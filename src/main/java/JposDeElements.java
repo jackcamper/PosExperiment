@@ -29,7 +29,7 @@ public class JposDeElements {
       oMap.put("02", getPAN());
     }
     if(getDE48() != null) {
-      oMap.put("48", getDE48);
+      oMap.put("48", getDE48());
     }
     return oMap;
   }
