@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class PosTests {
 
-  private final String DE00 = "0200";
+  private final String DE02 = "1234432112344321";
 
   @Test
   public void PosTests() {
